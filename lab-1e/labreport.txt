@@ -1,0 +1,24 @@
+R5:
+1. Value types(Struct) ->
+- struct are value types
+- when we copy a struct , a separate copy is created
+- changes don't affect the original
+
+2. Reference types (class) ->
+- classes are reference types
+- When we assign a class object to another variable, both variables point to the same object.
+- changes made using one variable are also visible through the other
+
+3. Stack and heap memory ->
+- these are two areas used for managing memory
+- stack mainly stores function calls and their local data 
+- heap is generally used for storing objects that need to stay is memory
+
+4. ARC(Automatic Reference Counting) ->
+- it automatically manages the memory of class object
+- it keeps track of how many strong references point to an object
+- weak references don't keep an object alive
+
+5. Retain cylce ->
+- it happens when objects keep strong references to each other and can't be released. 
+- this allows ARC to release objects when they are no longer needed
