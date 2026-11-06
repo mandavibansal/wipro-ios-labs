@@ -1,0 +1,8 @@
+Optional handling techniques :
+1. Optional(?) -> allows variable or function to contains either value or nil.
+2. If let -> safely unwraps an optional and executes code only if value is available.
+3. Guard let -> checks whether an optinal has a value. If it is nil , function exits early.
+4. Optional chaining(?.) -> allows us to access properties of an optional value safely.
+5. Nil-coalescing operator(??) -> provides default value whenever an optional contains nil.
+6. Dictonary handling -> safely checks whether key exists in it before using its value.
+7. Force unwrapping -> directly extracts optional value but can cause a runtime crash if value is nil.
