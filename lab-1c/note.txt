@@ -1,6 +1,6 @@
 When Arrays, Set, Dictionary are the best fit:
 
-Arrays = when we want to store multiple values in specific order and need to access them using their indexes.AWSTemplateFormatVersion: "2010-09-09"
+Arrays = when we want to store multiple values in specific order and need to access them using their indexes.
 
 Set = when we want to store only unique values and avoid duplicates.AWSTemplateFormatVersion: "2010-09-09"
 
