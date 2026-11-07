@@ -1,0 +1,8 @@
+UIKit:
+We should choose it when working on existing iOS applications, building complex custom interfaces, or when need detailed
+control over UI components and layout. It is also useful for maintaining older applications.
+
+SwiftUI:
+We should choose it when developing new iOS applications.It requires less code, provides a simple way to create layouts,
+ and automatically updates interface when application state changes .
+ 

@@ -1,0 +1,9 @@
+Amount of Code => UIKit generally need more instructions; SwiftUI is shorter.
+
+State updates => UIKit requires manually changing lables; SwiftUI updates the screen when @State changes.
+
+Layout => UIKit uses constraints; SwiftUI uses stacks and modifiers.
+
+Previews => SwiftUI makes it easy to preview the interface in Xcode.
+
+Interoperability => Both frameworks can be used together.
