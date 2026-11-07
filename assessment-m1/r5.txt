@@ -1,0 +1,20 @@
+1. Difference between Struct and Class
+- Both are used to create custom data type
+Struct:
+Value type.
+When we copy it , a separate copy of its value is created.
+It doesn't support inheritance.
+
+Class:
+It is reference type.
+When we assign a class object to another variable, both variables refer to same object.
+It supports inheritance.
+
+2. Difference between Protocol and inheritance
+A Protocol defines a set of rules that a type must follow.Classes , structs and enums can conform to protocols.
+
+Inheritance allows one class to acquire properties and methods from another class.
+
+3. Map-> Map is used to transform every element of an array into a new value.
+   Filter -> Filter is used to select elements that satisfy a particular condition.
+   Reduce-> Reduce combines all elements of an array into a single value.
