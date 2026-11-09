@@ -37,17 +37,27 @@ class ViewController: UIViewController {
         ])
     }
 
-    @objc func startWork() {
+    
+@objc func startWork() {
 
-        statusLabel.text = "Working..."
+    statusLabel.text = "Processing..."
 
-        DispatchQueue.global(qos: .userInitiated).async {
+    DispatchQueue.global().async {
 
-            sleep(3)
+        sleep(3)
+
+        print("Slow operation completed")
+
+        DispatchQueue.global().asyncAfter(
+            deadline: .now() + 2
+        ) {
+
+            print("Delayed response received")
 
             DispatchQueue.main.async {
-                self.statusLabel.text = "Work Completed!"
+                self.statusLabel.text = "Response received!"
             }
         }
     }
+}
 }
