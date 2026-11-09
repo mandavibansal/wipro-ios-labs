@@ -41,7 +41,7 @@ class ViewController: UIViewController {
 
         statusLabel.text = "Working..."
 
-        DispatchQueue.global().async {
+        DispatchQueue.global(qos: .userInitiated).async {
 
             sleep(3)
 
