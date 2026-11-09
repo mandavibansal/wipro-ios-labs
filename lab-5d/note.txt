@@ -1,0 +1,7 @@
+Sendable is swift protocol that ensures data can be safely shared between different tasks.
+Value types like Int and String are sendable. 
+Shared mutable objects can cause data races , so we use actors to protect shared data to make sharing safe.
+
+Compiler warnings help identify possible concurrency problems such as unsafe shared mutable data and data races.
+I used an actor to protect counter and avoid simultaneous modifications.
+I also used immutable properties in Sendable class.
