@@ -1,0 +1,18 @@
+R4 ->
+viewDidLoad:
+- it is called when the view controller's view is loaded into memory.
+- it is generally called only once during lifetime of that loaded view.
+- UI elements , buttons , labels , and initial constraints should be configured here
+- Initial data can also be loaded here
+
+viewWillAppear:
+- it is called every time view controller is about to become visible
+- it can be called multiple times when navigating between screens
+- useful for resfreshing information that may have changed on another screen
+
+I used viewDidLoad for initial UI setup and viewWillAppear for tasks that may need refreshing whenever screem appears
+
+R5 ->
+I tested application by tapping the student name text field. When keyboard appeared, scroll view adjusted its bottom insert so the form
+could still be accessed.
+After pressing Return key , the keyboard disappeared and original layout was restored
