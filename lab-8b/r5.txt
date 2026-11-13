@@ -1,0 +1,8 @@
+App entry point ->
+It conforms to App protocol
+@main attribute tells swift where application should begin execution
+
+Individual View
+It represents a screen of UI. 
+It conforms to View protocol. 
+It uses body property to describe what appears on screen. 
