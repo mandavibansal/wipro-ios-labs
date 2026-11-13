@@ -1,0 +1,3 @@
+Local State should be sued when data is needed only inside one view. 
+For example, in my Course explorer application, I used @State for search text because it is only required on course list screen. 
+Shared state should be used when multiple views need access to same data. In my application, I used an Observableobject called CourseViewModel to store course information. 
