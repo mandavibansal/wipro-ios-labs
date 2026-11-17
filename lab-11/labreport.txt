@@ -1,0 +1,17 @@
+The application was tested using the iPhone Simulator in Xcode.
+
+Test conditions:
+- Application: PerformanceLab
+- Device: iPhone Simulator
+- Tool used: Xcode Instruments – Time Profiler
+- Workload: Scrolling through a list of 1,000 items
+- Before optimization: Each list item performed a calculation involving 5,000 loop iterations.
+- After optimization: The expensive loop was replaced with a simpler calculation.
+
+Performance Evaluation:
+The same workload was used for both profiling sessions to maintain consistency. The Time Profiler was used to observe CPU activity before and after the modification.
+
+The optimized version performs fewer computational operations. However, no specific percentage of performance improvement is claimed without sufficient measured evidence.
+
+Conclusion:
+The experiment helped demonstrate how profiling tools can identify unnecessary computational work and how targeted code changes can reduce it.
